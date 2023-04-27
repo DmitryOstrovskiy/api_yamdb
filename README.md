@@ -27,31 +27,32 @@ YaMDB отправляет письмо с кодом подтверждения
 Эти операции выполняются один раз, при регистрации пользователя. В результате пользователь получает токен и может работать с API, отправляя этот токен с каждым запросом.
 
 ### Как запустить проект
-Клонировать репозиторий и перейти в него в командной строке:
-```
-git clone https://git@github.com:xuuupa/api_yamdb.git
-```
-cd api_yamdb
-```
-Cоздать и активировать виртуальное окружение:
-```
-python3 -m venv env
-```
-Windows: source venv\scripts\activate; Linux/Mac: sorce venv/bin/activate
-```
-Установить зависимости из файла requirements.txt:
-```
-python -m pip install --upgrade pip
-```
-pip install -r requirements.txt
-```
-Выполнить миграции:
-```
-python manage.py migrate
-```
-Запустить проект:
-```
-python manage.py runserver
+
+- Клонировать репозиторий и перейти в него в командной строке:
+
+```git clone https://git@github.com:xuuupa/api_yamdb.git```
+
+```cd api_yamdb```
+
+```Cоздать и активировать виртуальное окружение:```
+
+```python3 -m venv env```
+
+Windows: ```source venv\scripts\activate```; Linux/Mac: ```sorce venv/bin/activate```
+
+- Установить зависимости из файла requirements.txt:
+
+```python -m pip install --upgrade pip```
+
+```pip install -r requirements.txt```
+
+- Выполнить миграции:
+
+```python manage.py migrate```
+
+- Запустить проект:
+
+```python manage.py runserver```
 
 ### Примеры запросов к API
 _Запрос GET:_
@@ -89,6 +90,6 @@ _Ответ:_
 }
 
 ### Авторы:
-Ксения Богатырева - тимлид
-Артем Тронин - разработчик
-Дмитрий Островский - разработчик
+- Ксения Богатырева - тимлид
+- Артем Тронин - разработчик
+- Дмитрий Островский - разработчик
